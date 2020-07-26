@@ -1,7 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Navigation;
-
-namespace ExpenseIt
+﻿namespace ExpenseIt
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

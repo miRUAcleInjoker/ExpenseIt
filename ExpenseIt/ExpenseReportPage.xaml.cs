@@ -1,8 +1,6 @@
-﻿using System.Windows.Controls;
-
-namespace ExpenseIt
+﻿namespace ExpenseIt
 {
-    public partial class ExpenseReportPage : Page
+    public partial class ExpenseReportPage
     {
         public ExpenseReportPage()
         {
