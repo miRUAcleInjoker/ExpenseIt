@@ -24,4 +24,9 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="image\watermark.png" />
+      <Resource Include="image\watermark.png" />
+    </ItemGroup>
+
 </Project>
