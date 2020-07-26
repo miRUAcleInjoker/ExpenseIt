@@ -6,4 +6,22 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Page Update="ExpenseItHome.xaml">
+        <Generator></Generator>
+      </Page>
+      <Page Update="ExpenseReportPage.xaml">
+        <Generator></Generator>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="ExpenseItHome.xaml.cs">
+        <DependentUpon>ExpenseItHome.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="ExpenseReportPage.xaml.cs">
+        <DependentUpon>ExpenseReportPage.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
